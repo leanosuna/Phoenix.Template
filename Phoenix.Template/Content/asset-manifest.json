@@ -1,0 +1,26 @@
+{
+  "Assets": [
+    {
+      "RelativePath": "3D/phnx.obj",
+      "Type": 0
+    },
+    {
+      "RelativePath": "Shaders/basic/basic.frag",
+      "Type": 3
+    },
+    {
+      "RelativePath": "Shaders/basic/basic.vert",
+      "Type": 3
+    },
+    {
+      "RelativePath": "Shaders/plane/plane.frag",
+      "Type": 3
+    },
+    {
+      "RelativePath": "Shaders/plane/plane.vert",
+      "Type": 3
+    }
+  ],
+  "Namespace": "Phoenix.Framework.ShaderHelpers",
+  "DarkTheme": true
+}
