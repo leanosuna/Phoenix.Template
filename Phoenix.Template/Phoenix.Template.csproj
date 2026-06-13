@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Phoenix.Framework" Version="1.0.1-alpha-4" />
+    <PackageReference Include="Phoenix.Framework" Version="1.0.1" />
   </ItemGroup>
 
   <ItemGroup>
