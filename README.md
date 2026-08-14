@@ -2,4 +2,10 @@
 
 Template for a game using phoenix framework.
 
-[More info in docs...](https://leanosuna.github.io/Phoenix.Framework/)
+## Commands required at project directory:
+
+```dotnet restore```  
+```dotnet tool restore```  
+```dotnet run```  
+    
+[More info in docs...](https://framework.nx.net.ar/)
