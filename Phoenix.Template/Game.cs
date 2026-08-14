@@ -54,11 +54,11 @@ public class Game : PhoenixGame
 
     protected override void Update(double deltaTime)
     {
-        if (InputManager.KeyDownOnce(Key.Escape))
+        if (Input.KeyDownOnce(Key.Escape))
             Stop();
 
         // Game logic ...
-        var t = (float)Graphics.Time + MathF.PI;
+        var t = (float)Graphics.Metrics.Time + MathF.PI;
         ((FreeCamera)Camera).Update(deltaTime);
         _logoWorld = Matrix4x4.CreateScale(50f)
             * MathHelper.RotationMxFromYawPitchRoll(t,0,0);
